@@ -3,5 +3,12 @@
 #ifndef INCLUDED_DXLENDERLING1_1_H_
 #include"DxLenderling.h"
 #endif // !INCLUDED_DXLENDERLING1_1_H_
-int RenderScanLine(void);
+class Render1_1{
+private:
+	Render1_1();
+	~Render1_1();
+public:
+	static int RenderScanLine(void);
+};
+
 #endif // !1

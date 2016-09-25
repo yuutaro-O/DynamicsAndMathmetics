@@ -6,7 +6,7 @@
 #endif // !INCLUDED_USERDRAWING_H_
 
 //スキャンラインアルゴリズムのレンダリング
-int RenderScanLine(void) {
+int Render1_1::RenderScanLine(void) {
 	int x, y;
 	int nBright;
 
